@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #0f141d, #202a3d );
+    }
+
+    section#login {
+        width: 90vw;        
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: right -150px center;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        margin-top: 100px;
+    }
+
+    form  input[type=email], form  input[type=password] {
+        padding: 10px;  
+        width: 80%;      
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        margin: 50px 0 0 60px;
+        width: 80%;
+        height: 40px;
+        background-color: crimson;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    form > .forgot-pass {
+        position: absolute;
+        top: 445px;
+        left: 700px;
+    }
+    
+    div#formulario img.logo {
+        position: absolute;
+        width: 60px;
+        left: 315px;
+        padding: 10px 0 0 0;
+        top: 0px;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+        padding-left: 41px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #0f141d, #202a3d );
+    }
+    
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: right -110px center;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    form > .forgot-pass {
+        position: absolute;
+        top: 470px;
+        left: 350px;
+    }
+
+    form > input[type=submit] {
+        margin: 50px 0 0 44px;
+        width: 80%;
+        height: 40px;
+       
+    }
+
+    form  input[type=email], form  input[type=password] {
+        padding: 10px;  
+        width: 80%;      
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+        padding: 80px 0px 30px 30px;
+    }
+   
+    div#formulario img.logo {
+        position: absolute;
+        width: 40px;
+        left: 50px;
+        padding: 20px 0 10px 0;
+        top: 0px;
+    }
+   
+}
